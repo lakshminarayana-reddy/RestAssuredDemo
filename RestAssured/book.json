@@ -1,0 +1,25 @@
+{
+  "store" : {
+    "book" : [ {
+      "author" : "Jk Rowling",
+      "category" : "Thriller",
+      "price" : 150.56,
+      "title" : "Harry Potter"
+    }, {
+      "author" : "Robert and Sharon",
+      "category" : "Successful Stories",
+      "price" : 200.45,
+      "title" : "Rich Dad Poor Dad"
+    }, {
+      "author" : "Jai",
+      "category" : "Personal Development",
+      "price" : 135.78,
+      "title" : "Love,Live with rules"
+    }, {
+      "author" : "Stan Lee",
+      "category" : "Action",
+      "price" : 160.56,
+      "title" : "Avengers"
+    } ]
+  }
+}
