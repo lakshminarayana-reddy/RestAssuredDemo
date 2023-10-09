@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.validateschema.JSONSchemaValidation">
+      <class name="com.authorizations.APIKeyAuth">
         <methods>
-          <include name="validateJSONSchema"/>
+          <include name="testAPIKeyAuthentication"/>
         </methods>
-      </class> <!-- com.validateschema.JSONSchemaValidation -->
+      </class> <!-- com.authorizations.APIKeyAuth -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
