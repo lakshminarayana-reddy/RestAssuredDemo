@@ -1,17 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-09T08:18:12 IST" name="Default suite" finished-at="2023-10-09T08:18:12 IST" duration-ms="798">
+  <suite started-at="2023-10-11T07:38:10 IST" name="Suite" finished-at="2023-10-11T07:38:15 IST" duration-ms="5495">
     <groups>
     </groups>
-    <test started-at="2023-10-09T08:18:12 IST" name="Default test" finished-at="2023-10-09T08:18:12 IST" duration-ms="798">
-      <class name="com.basicrequests.FakeDataGeneration">
-        <test-method signature="generateTestData()[pri:0, instance:com.basicrequests.FakeDataGeneration@2d710f1a]" started-at="2023-10-09T08:18:12 IST" name="generateTestData" finished-at="2023-10-09T08:18:12 IST" duration-ms="698" status="PASS">
+    <test started-at="2023-10-11T07:38:10 IST" name="Test" finished-at="2023-10-11T07:38:15 IST" duration-ms="5495">
+      <class name="com.apichaining.GoRestAPIGetUser">
+        <test-method signature="getUser(org.testng.ITestContext)[pri:0, instance:com.apichaining.GoRestAPIGetUser@4f80542f]" started-at="2023-10-11T07:38:14 IST" name="getUser" finished-at="2023-10-11T07:38:14 IST" duration-ms="587" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5db6b9cd]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- generateTestData -->
-      </class> <!-- com.basicrequests.FakeDataGeneration -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- getUser -->
+      </class> <!-- com.apichaining.GoRestAPIGetUser -->
+      <class name="com.apichaining.GoRestAPIDeleteUser">
+        <test-method signature="deleteUser(org.testng.ITestContext)[pri:0, instance:com.apichaining.GoRestAPIDeleteUser@121314f7]" started-at="2023-10-11T07:38:15 IST" name="deleteUser" finished-at="2023-10-11T07:38:15 IST" duration-ms="320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5db6b9cd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- com.apichaining.GoRestAPIDeleteUser -->
+      <class name="com.apichaining.GoRestAPICreateUser">
+        <test-method signature="createUser(org.testng.ITestContext)[pri:0, instance:com.apichaining.GoRestAPICreateUser@13fd2ccd]" started-at="2023-10-11T07:38:10 IST" name="createUser" finished-at="2023-10-11T07:38:14 IST" duration-ms="3963" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5db6b9cd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+      </class> <!-- com.apichaining.GoRestAPICreateUser -->
+      <class name="com.apichaining.GoRestAPIUpdateUser">
+        <test-method signature="updateUser(org.testng.ITestContext)[pri:0, instance:com.apichaining.GoRestAPIUpdateUser@60bd273d]" started-at="2023-10-11T07:38:14 IST" name="updateUser" finished-at="2023-10-11T07:38:15 IST" duration-ms="500" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5db6b9cd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+      </class> <!-- com.apichaining.GoRestAPIUpdateUser -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.apichaining.GoRestAPICreateUser" />
+			<class name="com.apichaining.GoRestAPIGetUser" />
+			<class name="com.apichaining.GoRestAPIUpdateUser" />
+			<class name="com.apichaining.GoRestAPIDeleteUser" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

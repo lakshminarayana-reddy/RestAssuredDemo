@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.authorizations.APIKeyAuth">
+      <class name="com.apichaining.GoRestAPIUpdateUser">
         <methods>
-          <include name="testAPIKeyAuthentication"/>
+          <include name="updateUser" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.authorizations.APIKeyAuth -->
+      </class> <!-- com.apichaining.GoRestAPIUpdateUser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
