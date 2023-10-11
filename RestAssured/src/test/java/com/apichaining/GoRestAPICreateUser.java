@@ -32,6 +32,7 @@ public class GoRestAPICreateUser {
 				.when()
 				.post("https://gorest.co.in/public/v2/users").jsonPath().getInt("id");
 		System.out.println("Generated Id: "+id);
+		System.out.println("user created");
 		//context.setAttribute("userId", id); //This will work for test level in xml file
 		context.getSuite().setAttribute("userId", id); // This will work for suite level in xml file.
 	}
