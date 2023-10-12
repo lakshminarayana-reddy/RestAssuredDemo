@@ -16,7 +16,7 @@ public class HTTPRequests {
  @Test(priority =2, dependsOnMethods = {"getRequest"})
   public void postRequest() {
 	  HashMap<Object, Object> map = new HashMap<Object, Object>();
-	  map.put("name","sai");
+	  map.put("name","saicharan");
 	  map.put("job","student");
 	  given().contentType("application/json").body(map).when().post("https://reqres.in/api/users").then().statusCode(201).log().all();
 	  id = given().contentType("application/json").body(map).when().post("https://reqres.in/api/users").jsonPath().getInt("id");
