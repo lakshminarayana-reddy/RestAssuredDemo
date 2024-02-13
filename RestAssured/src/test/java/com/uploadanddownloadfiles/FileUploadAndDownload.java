@@ -11,7 +11,7 @@ public class FileUploadAndDownload {
  // @Test
   public void singleFileUploadDownload() {
 	  File f = new File("Path of the file");
-	  given().multiPart("file",f)
+	  given().multiPart("file",f).contentType("mutlipart/form-data")
 	  .when().post("")
 	  .then().statusCode(200);
   }
