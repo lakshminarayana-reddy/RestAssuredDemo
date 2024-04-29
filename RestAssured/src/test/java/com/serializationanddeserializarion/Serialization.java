@@ -10,7 +10,7 @@ public class Serialization {
 	public void pojoToJson() throws JsonProcessingException {
 		POJOData data = new POJOData();
 		data.setName("Sai");
-		data.setPhone("123456");
+		data.setPhone("6786989");
 		data.setLocation("Hyderabad");
 		String arr[] = {"Java","Selenium"};
 		data.setCourses(arr);

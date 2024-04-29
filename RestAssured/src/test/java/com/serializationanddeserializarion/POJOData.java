@@ -1,10 +1,12 @@
 package com.serializationanddeserializarion;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class POJOData {
 	String name;
 	String location;
 	String Phone;
-	String Courses[];
+	String[] Courses;
 	public String getName() {
 		return name;
 	}
@@ -17,12 +19,14 @@ public class POJOData {
 	public void setLocation(String location) {
 		this.location = location;
 	}
+	@JsonProperty("Phone")
 	public String getPhone() {
 		return Phone;
 	}
 	public void setPhone(String Phone) {
 		this.Phone = Phone;
 	}
+	@JsonProperty("Courses")
 	public String[] getCourses() {
 		return Courses;
 	}

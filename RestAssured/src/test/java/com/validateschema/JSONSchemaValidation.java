@@ -13,7 +13,7 @@ import java.io.File;
 public class JSONSchemaValidation {
   @Test
   public void validateJSONSchema() {
-	  //File file = new File("C:\\Users\\baru\\JSON Files\\BooksJsonSchema.json");
+	  //File file = new File("Path of the file");
 	  given()
 	  .when().get("http://localhost:3000/store")
 	  .then().assertThat().body(JsonSchemaValidator.matchesJsonSchemaInClasspath("BooksJSONSchema.json"));
